@@ -1,0 +1,157 @@
+/* Global Setup  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --extraColor:#B68C5A;
+    --blackColor:#414040;
+    --paragraphColor:#707070;   
+}
+
+.customButton {
+    padding: 8px 10px;
+    color: white;
+    background-color: var(--extraColor);
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+.customButton:hover{
+    background-color: white;
+    border: 2px solid var(--extraColor);
+    color: var(--extraColor);
+}
+
+/* Global Setup  */
+
+/* Start banner section  */
+.banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.616)), url(../images/banner.png);
+    width: 100%;
+    /* background-position: top bottom; */
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.banner p{
+    color:var(--paragraphColor);
+}
+.banner input{
+    text-align: center;
+}
+.bannerSecondPart{
+   display: flex;
+   justify-content: center;
+}
+
+/* End banner section  */
+
+/* Start Practice Area */
+
+.practiceArea_p{
+    text-align: center;
+    color: var(--paragraphColor);
+}
+.practiceArea h1{
+    color: var(--blackColor);
+}
+.box{
+    padding: 12px;
+    transition: 0.2s ease-in-out;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.box h3{
+    color: var(--blackColor);
+}
+.box p{
+    color: var(--paragraphColor);
+}
+.fa-arrow-right{
+    padding: 6px;
+    color: white;
+    background-color: var(--extraColor);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* End Practice Area */
+
+/* Start Our Client  */
+.slider{
+    background:linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.671)),url(../images/banner.png);
+}
+.extra{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+.info{
+    text-align: center!important;
+}
+.info h3,h5{
+    color: white;
+}
+.description{
+    color: gray;
+}
+/* End Our Client  */
+
+/* Start Questions */
+.questions h1{
+    color: var(--blackColor);
+}
+.questions p{
+    color: var(--paragraphColor);
+}
+.dualsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordionextra{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/* End Questions */
+
+/* start contact us section  */
+.contactusIcon{
+    color: var(--extraColor);
+    font-size: 30px;
+}
+/* end contact us section  */
+
+/* footer  */
+footer{
+    background-color: #111111;
+}
+/* footer  */
+
+/* extra  */
+.extrasection{
+    margin: 50px 0px;
+    background:linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)),url(../images/jurj.jpg);
+    padding: 100px 0px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

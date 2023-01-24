@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font familly  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- bootstrap Css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+    <!-- custom Css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- media query Css  -->
+    <link rel="stylesheet" href="./css//mediaquary.css">
+</head>
+<body>
+    
+    <!-- Start  navbar  -->
+        <section class="container mb-5">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features <i class="fa-solid fa-angle-right"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features <i class="fa-solid fa-angle-right"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features <i class="fa-solid fa-angle-right"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing <i class="fa-solid fa-angle-right"></i></a>
+                          </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <!-- modal -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="customButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Free Consultation
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class=" modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form action="#">
+                                        <h4>Emergency Contact Us</h4>
+                                        <div class="d-flex text-cener">
+                                          <input class="form-control " type="text" placeholder="Enter Your Email">
+                                        <button class="customButton">Submit</button>
+                                        </div>
+                                      </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </span>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+    <!-- End navbar  -->
+
+    <!-- Start Banner Section  -->
+    <section class="container banner">
+        <div class="row">
+            <div>
+                <h1>We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-center">JUSTICE's work in the criminal justice sphere has led to changes that <br> we now take for granted. For instance, the Crown Prosecution Service</p>
+            </div>
+            <div class="bannerSecondPart">
+                <input type="text" class="w-50 m-2 text-start  form-control" placeholder="Search Your Service">
+                <button class="m-2 customButton">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Section  -->
+
+    <!-- Start Practice Area -->
+    <section class="practiceArea container">
+        <div class="row mt-5 mb-5">
+            <h1 class="text-center">The Legal Practice Area</h1>
+            <p class="practiceArea_p">Board and the Criminal Cases Review Commission were <br> all JUSTICE recommendations. </p>
+            
+
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/business.png" style="width:'80px'" alt="">
+                   <h3>Business Law</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                   <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/criminal.png" style="width:'80px'" alt="">
+                   <h3>Criminal Law</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/child.png" style="width:'80px'" alt="">
+                   <h3>Child Support</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/education.png" style="width:'80px'" alt="">
+                   <h3>Education Law</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/divorce.png" style="width:'80px'" alt="">
+                   <h3>Divorce Law</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-md-4 g-0 col-sm-6 col-12">
+                <div class="text-center box">
+                   <img src="./images/tax.png" style="width:'80px'" alt="">
+                   <h3>Tax Law</h3> 
+                   <p>Recent work has focussed on improving effective participation within the justice process, particularly for those with vulnerabilities</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Practice Area -->
+
+    <!-- Start Our Client  -->
+    <section class="container Client">
+        <div class="row">
+            <h1 class="text-center">What Our Client Say</h1>
+            <p class="text-center">Our two most recent working parties have also promoted  <br> alternatives to the formal justice </p>
+            
+            <div class="slider">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide extra" data-bs-touch="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active info">
+                        <img src="./images/slider1.jpg" style="width: 100px;border-radius: 50%;"  alt="...">
+                        <h3>Dabit Martinose</h3>
+                        <h5>ui ux designer</h5>
+                        <div class="description w-75 m-auto">
+                            Join JUSTICE in 2023 for a series of fundraising events discussing the current threats to human rights and the rule of law in the UK. Well be joined by senior retired judges, leading practitioners, parliamentarians, and academics for three evenings of debate and discussion.
+                        </div>
+                      </div>
+                      <div class="carousel-item info">
+                        <img src="./images/slider2.png" style="width: 100px;border-radius: 50%;"  alt="...">
+                        <h3>alison dintory</h3>
+                        <h5>Web designer</h5>
+                        <div class="description w-75 m-auto">
+                            Join JUSTICE in 2023 for a series of fundraising events discussing the current threats to human rights and the rule of law in the UK. Well be joined by senior retired judges, leading practitioners, parliamentarians, and academics for three evenings of debate and discussion.
+                        </div>
+                      </div>
+                      <div class="carousel-item info">
+                        <img src="./images/slider3.png" style="width: 100px;border-radius: 50%;"  alt="...">
+                        <h3>marshial Hibron</h3>
+                        <h5>Mern Developer</h5>
+                        <div class="description w-75 m-auto">
+                            Join JUSTICE in 2023 for a series of fundraising events discussing the current threats to human rights and the rule of law in the UK. Well be joined by senior retired judges, leading practitioners, parliamentarians, and academics for three evenings of debate and discussion.
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Client  -->
+
+    <!-- Start Questions section  -->
+    <section class="container mt-5 mb-5">
+      <div class="row questions">
+          <h1 class="text-center">Frequently Asked Any Questions</h1>
+          <p class="text-center">All funds raised will go directly to support our work, ensuring that we continue <br> to defend the rule of law and human rights </p>
+      </div>
+      <div class="row dualsection">
+        <div class="col-sm-6 col-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3 border-0 ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  what is the difference between css grid and flexbox ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                  <b>Grid</b> <br>
+                  <p>With grid, it’s easy to set up an entire layout design system for your website. On a macro scale, you’ll have your styling up and running in no time.</p>
+                  <b>Flex</b>
+                  <p>Flex includes many sub properties that can be especially useful.This is a great tool to let smaller UI elements look their best on any device. Unfortunately if you want to layout larger elements on the page, you would probably want to add margins and then do a little math to make sure it looks the way you want it to look. That can take time</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border-0 ">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  what is media query ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                  <p>CSS3 introduced a very handy feature named “Media queries” that allows us to design responsive web pages. The web pages designed with the help of media queries are adjustable to different devices such as mobile phones, desktops, etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border-0 ">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  what is semantic tag ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                  <p>
+                    HTML 5 added a set of new HTML tags known as "semantic" tags to better structure websites. we should use them to avoid sinking in chaos with many levels of nested divs. They also have the benefit to make our website more accessible.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border border-0">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#extracollaps" aria-expanded="false" aria-controls="extracollaps">
+                  what is css Box Model ?
+                </button>
+              </h2>
+              <div id="extracollaps" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                  We’ve familiarized ourselves with HTML and CSS; we know what they look like and how to accomplish some of the basics. Now we’re going to go a bit deeper and look at exactly how elements are displayed on a page and how they are sized.
+
+                  In the process we’ll discuss what is known as the box model and how it works with HTML and CSS. We’re also going to look at a few new CSS properties and use some of the length values we covered in Lesson 3. Let’s begin.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center" col-12>
+          <img src="./images/faq.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- End Questions section  -->
+
+    <!-- start Contact Us section  -->
+    <section class="contatus container">
+      <div class="row">
+        <h1 class="text-center">Contact With Us</h1>
+        <p class="text-center">Support our work today and help make the UK justice system fairer <br> and more accessible for all.</p>
+      </div>
+      <div class="row f-flex align-items-center">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="p-3 col-sm-6  text-center border border-1" style="background-color: #F3F3F3;">
+              <i class="contactusIcon fa-solid fa-location-dot"></i>
+              <h5 style="color: #707070;">Address</h5>  
+              <p>A108 Adam Street,<br>
+                New York, NY 535022</p>
+            </div>
+            <div class="p-3 col-sm-6  text-center border border-1" style="background-color: #F3F3F3;">
+              <i class="contactusIcon fa-solid fa-phone"></i>
+              <h5 style="color: #707070;">Call Us</h5> 
+              <p>+88 01750 00 00 00 <br>
+                +88 01750 00 00 00</p>
+            </div>
+            <div class="p-3 col-sm-6  text-center border border-1" style="background-color: #F3F3F3;">
+              <i class="contactusIcon fa-solid fa-envelope"></i>
+              <h5 style="color: #707070;">Email Us</h5> 
+              <p>info@gmail.com <br>
+                info@gmail.com</p>
+            </div>
+            <div class="p-3 col-sm-6  text-center border border-1" style="background-color: #F3F3F3;">
+              <i class="contactusIcon fa-regular fa-clock"></i>
+              <h5 style="color: #707070;">Working Hours</h5> 
+              <p>Mon-Fri: 9AM to 5PM <br>
+                Sunday: 9AM to 1 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form action="#">
+              <input type="text" placeholder="Name" class=" bg-light  border border-0 p-2 mt-2 form-control">
+              <input type="text" placeholder="Email" class= " bg-light  border border-0 p-2 mt-2 form-control">
+              <input type="text" placeholder="Subject" class= " bg-light  border border-0 p-2 mt-2 form-control">
+              <textarea rows="4" type="text" placeholder="Your Message" class=" bg-light  border border-0  p-2 mt-2 form-control"></textarea>
+              <button class="customButton border  w-100 mt-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us section  -->
+
+    <section class="extrasection">
+      <div class="container">
+        <div class="row">
+          <div style="width: 70%;margin: 0 auto;">
+            <h1 class="text-center" style="color:white">Shut Down Pornhub and Hold Its Executives Accountable for Aiding Trafficking</h1>
+          <div class="text-center"><button class="w-50 customButton">Information</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="mt-5 p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mt-3 col-sm-6 text-cener">
+            <img src="./images/logo.png" alt=""> 
+            <p class="text-center description">Justice There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </div>
+          <div class="col-md-3 mt-3 col-sm-6">
+            <h3 style="color:white">Usefull Link</h3>
+            <ul >
+              <li style="list-style: none;"><a class="description" style="text-decoration:none" href="#">Home</a></li>
+              <li style="list-style: none;"><a class="description" style="text-decoration:none" href="#">About Us</a></li>
+              <li style="list-style: none;"><a class="description" style="text-decoration:none" href="#">Cases</a></li>
+              <li style="list-style: none;"><a class="description" style="text-decoration:none" href="#">Blog</a></li>
+              <li style="list-style: none;"><a class="description" style="text-decoration:none" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-3 col-sm-6">
+            <h3 style="color:white">Contact Now</h3>
+            <p class="description">555 4th 5t NW, Washington <br>
+              DC 20530, United States</p>
+              <p class="description">+88 01750 000 000 <br>
+                +88 01750 000 000</p>
+              <p class="description">info@gmail.com <br>
+                info@gmail.com</p>
+          </div>
+          <div class="col-md-3 mt-3 col-sm-6">
+            <h3 style="color: white;">Subscribe</h3>
+            <p class="description">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="customButton" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- bootstrap link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
